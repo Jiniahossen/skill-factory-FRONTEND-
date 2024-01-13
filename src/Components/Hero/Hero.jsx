@@ -1,7 +1,7 @@
 export function Button({ text }) {
   return (
     <>
-      <button className="font-Jost bg-[#9A7AF1] text-white text-sm w-28 rounded-sm py-2 text-center">
+      <button className="font-Jost bg-[#9A7AF1] text-white text-sm w-28 rounded-sm py-3 text-center">
         {text}
       </button>
     </>
