@@ -17,7 +17,7 @@ function Card({ title }) {
 
 export default function Overview() {
   return (
-    <div className="flex gap-6 items-center mt-20 py-10">
+    <div id="overview" className="flex gap-6 items-center mt-20 py-10">
       <div className="w-1/3 p-6">
         <h1 className="font-Jost font-semibold text-black text-4xl">
           Why we are better than others

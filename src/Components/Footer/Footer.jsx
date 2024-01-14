@@ -24,9 +24,36 @@ export default function Footer() {
                 placeholder="Your email"
                 className="input input-bordered join-item bg-[#373089]"
               />
-              <button className=" px-4 bg-[#9A7AF1] join-item">
+              {/* Open the modal using document.getElementById('ID').showModal() method */}
+              <button
+                className="px-4 bg-[#9A7AF1] join-item rounded-lg font-Jost"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default form submission behavior
+                  document.getElementById("my_modal_5").showModal();
+                }}
+              >
                 Subscribe
               </button>
+              <dialog
+                id="my_modal_5"
+                className="modal modal-bottom sm:modal-middle"
+              >
+                <div className="modal-box">
+                  <img
+                    src="https://i.ibb.co/b2vK5NQ/undraw-a-whole-year-vnfm-1.png"
+                    alt=""
+                  />
+                  <h1 className="text-4xl font-Jost text-black text-center mt-6">
+                    THANK YOU
+                  </h1>
+                  <div className="modal-action">
+                    <form method="dialog">
+                      {/* if there is a button in form, it will close the modal */}
+                      <button className="px-4 py-2.5 rounded-lg bg-[#9A7AF1] font-Jost text-white">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
             </div>
           </fieldset>
         </form>

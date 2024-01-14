@@ -1,4 +1,5 @@
 import { TbWorld } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -81,9 +82,9 @@ export default function Navbar() {
           </details>
         </div>
         <div>
-          <a className=" rounded-sm px-4 py-2 bg-[#9A7AF1] font-Jost text-white text-sm">
+          <Link to={'/login'} className=" rounded-sm px-4 py-2 bg-[#9A7AF1] font-Jost text-white text-sm">
             Sign In
-          </a>
+          </Link>
         </div>
       </div>
     </div>

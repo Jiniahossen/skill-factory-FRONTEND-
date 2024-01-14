@@ -1,9 +1,10 @@
+import { About } from "../Components/About/About";
 import Feature from "../Components/Feature/Feature";
 import Footer from "../Components/Footer/Footer";
 import Hero from "../Components/Hero/Hero";
 import Navbar from "../Components/Navbar/Navbar";
 import Overview from "../Components/Overview/Overview";
-import Pricing, { About } from "../Components/Pricing/Pricing";
+import Pricing from "../Components/Pricing/Pricing";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Feature />
       <Pricing />
       <About/>
+      
     </div>
     <Footer/>
    </>

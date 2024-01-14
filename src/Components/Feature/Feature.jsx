@@ -17,7 +17,7 @@ function Description({ title, subtitle, parag }) {
 
 export default function Feature() {
   return (
-    <div className="mt-20 max-w-6xl mx-auto">
+    <div id="feature" className="mt-20 max-w-6xl mx-auto">
       <div className="flex items-center gap-10">
         <div className="w-1/2">
           <img
