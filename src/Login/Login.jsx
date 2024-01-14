@@ -29,7 +29,7 @@ function Form() {
           <h1 className="text-black font-Jost text-sm mt-4">
             New to this website?{" "}
             <span>
-              <Link to={"/signin"} className="text-blue-500 font-Jost text-sm">Signin</Link>
+              <Link to={"/signup"} className="text-blue-500 font-Jost text-sm">Sign up</Link>
             </span>
           </h1>
       </form>

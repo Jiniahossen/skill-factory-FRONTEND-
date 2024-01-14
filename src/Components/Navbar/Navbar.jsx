@@ -82,7 +82,7 @@ export default function Navbar() {
           </details>
         </div>
         <div>
-          <Link to={'/signin'} className=" rounded-sm px-4 py-2 bg-[#9A7AF1] font-Jost text-white text-sm">
+          <Link to={'/login'} className=" rounded-sm px-4 py-2 bg-[#9A7AF1] font-Jost text-white text-sm">
             Sign In
           </Link>
         </div>
